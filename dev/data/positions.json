@@ -1,0 +1,18 @@
+{
+    "1": {
+        "name": "Goalkeeper",
+        "short": "G"
+    },
+    "2": {
+        "name": "Defender",
+        "short": "D"
+    },
+    "3": {
+        "name": "Midfielder",
+        "short": "M"
+    },
+    "4": {
+        "name": "Forward",
+        "short": "F"
+    }
+}

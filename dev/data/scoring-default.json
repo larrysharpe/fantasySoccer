@@ -1,0 +1,20 @@
+{
+    "playing in a game":	1,
+    "playing at least 60 minutes in a game (includes playing points mentioned above)":	2,
+    "each goal scored by your goalkeeper or defenders":	6,
+    "each goal scored by your midfielders or forwards":	5,
+    "each assist":	3,
+    "each second assist":	3,
+    "your goalkeeper conceding 0 goals (must also play at least 60 minutes)":	4,
+    "your defenders conceding 0 goals (must also play at least 60 minutes)":	4,
+    "your midfielders conceding 0 goals (must also play at least 60 minutes)":	1,
+    "every penalty miss":	-2,
+    "every penalty save":	5,
+    "every penalty earned":	2,
+    "each own goal":	-2,
+    "each own goal assist":	1,
+    "every 2 goals conceded by your goalkeeper or defenders":	-1,
+    "every yellow card":	-1,
+    "every red card (includes any yellow card points)":	-3,
+    "every 3 saves":	1
+}

@@ -1,0 +1,8 @@
+<ul class="nav nav-pills">
+    <li><a><b>{{data.sports[sport].name}}:</b></a></li>
+    <li ng-repeat="league in data.sports[sport].leagues"><a href="" ng-click="selectLeague($index)">{{league.name}}</a></li>
+</ul>
+<h3>Teams</h3>
+<ul class="list-unstyled">
+    <li ng-repeat="team in data.sports[sport].leagues[league].teams"><a href="" ng-click="selectTeam($index)">{{team.name}}</a></li>
+</ul>

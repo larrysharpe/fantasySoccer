@@ -31,7 +31,35 @@ angular
             templateUrl: 'views/contact.html',
             controller: 'ContactCtrl'
         })
+        .when('/Soccer', {
+            templateUrl: 'views/sport.html',
+            controller: 'SportCtrl'
+        })
+        .when('/Football', {
+            templateUrl: 'views/sport.html',
+            controller: 'SportCtrl'
+        })
       .otherwise({
         redirectTo: '/'
       });
-  });
+  })
+
+    .service('fullData',[function(){
+        return sportsData;
+    }])
+    .controller('appMainCtrl',['$scope','fullData', function($scope,fullData){
+        $scope.data = fullData;
+        $scope.league = 0;
+        $scope.conference = null;
+        $scope.division = null;
+        $scope.team = null;
+        $scope.sport = null;
+
+        $scope.selectSport = function (sport){
+            $scope.sport = sport;
+        };
+
+        $scope.selectLeague = function (league){
+            $scope.league = league;
+        };
+}]);

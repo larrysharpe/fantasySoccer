@@ -17,7 +17,7 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
-  .config(function ($routeProvider) {
+  .config(['$routeProvider', function($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -42,7 +42,29 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-  })
+
+  }])
+
+.factory('DataFactory', ['$http', function($http) {
+    return {
+        // call to get all nerds
+        get : function() {
+            return $http.get('http://localhost:3030/api/bears');
+        },
+
+        // call to POST and create a new nerd
+        create : function(nerdData) {
+            return $http.post('/api/nerds', nerdData);
+        }
+
+        // call to DELETE a nerd
+        //delete : function(id) {
+        //    return $http.delete('/api/nerds/' + id);
+        //}
+    }
+
+}])
+
 
     .service('fullData',[function(){
         return sportsData;

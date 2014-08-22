@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c9c7c2c-e83c-4c1b-979b-be80768aee83" name="Default" comment="small updates for client side">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/server/models/bear.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/server/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/server/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/client/app/views/main.html" afterPath="$PROJECT_DIR$/dev/client/app/views/main.html" />
+    <list default="true" id="9c9c7c2c-e83c-4c1b-979b-be80768aee83" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/client/app/scripts/app.js" afterPath="$PROJECT_DIR$/dev/client/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/server/package.json" afterPath="$PROJECT_DIR$/dev/server/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/server/server.js" afterPath="$PROJECT_DIR$/dev/server/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/client/app/scripts/controllers/sport.js" afterPath="$PROJECT_DIR$/dev/client/app/scripts/controllers/sport.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="_devroot.iws" />
@@ -29,11 +29,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.375" vertical-offset="408" max-vertical-offset="1292">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#2291#2453#0" expanded="false" />
+                <element signature="e#2579#3042#0" expanded="false" />
+                <element signature="e#3174#3428#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/server/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="323">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/client/app/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1564">
+              <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sport.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/client/app/scripts/controllers/sport.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev/client/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.53578335" vertical-offset="981" max-vertical-offset="1513">
+              <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -67,21 +111,22 @@
         <option value="$PROJECT_DIR$/dev/client/app/scripts/controllers/contact.js" />
         <option value="$PROJECT_DIR$/dev/data/data.js" />
         <option value="$PROJECT_DIR$/dev/client/app/index.html" />
-        <option value="$PROJECT_DIR$/dev/client/app/scripts/controllers/sport.js" />
         <option value="$PROJECT_DIR$/dev/client/app/views/sport.html" />
-        <option value="$PROJECT_DIR$/dev/client/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/dev/client/app/scripts/data.js" />
-        <option value="$PROJECT_DIR$/dev/server/package.json" />
         <option value="$PROJECT_DIR$/dev/client/app/views/main.html" />
         <option value="$PROJECT_DIR$/dev/server/models/bear.js" />
+        <option value="$PROJECT_DIR$/dev/client/app/scripts/controllers/sport.js" />
+        <option value="$PROJECT_DIR$/dev/client/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/dev/server/server.js" />
+        <option value="$PROJECT_DIR$/dev/server/package.json" />
+        <option value="$PROJECT_DIR$/dev/nimbu.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
-    <option name="width" value="960" />
-    <option name="height" value="1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -140,6 +185,20 @@
               <option name="myItemId" value="dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fantasySoccer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fantasySoccer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -164,38 +223,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fantasySoccer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fantasySoccer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fantasySoccer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fantasySoccer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -272,17 +299,23 @@
       <created>1407855113790</created>
       <updated>1407855113790</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added server folder&#10;Client index page changes">
+      <created>1408564920929</created>
+      <updated>1408564920929</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="960" height="1080" extended-state="0" />
+    <frame x="1920" y="0" width="1920" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.75772357" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25605902" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3740374" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17659806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496017" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24535316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.65905386" sideWeight="0.50037175" order="7" side_tool="true" content_ui="tabs" />
@@ -292,7 +325,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -314,19 +346,13 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="small updates for client side" />
-    <option name="LAST_COMMIT_MESSAGE" value="small updates for client side" />
+    <MESSAGE value="Added server folder&#10;Client index page changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added server folder&#10;Client index page changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dev/client/app/scripts/controllers/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="391">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/client/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="391">
@@ -579,20 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/client/app/scripts/controllers/sport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/client/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="805" max-vertical-offset="1190">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/client/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.1940084" vertical-offset="4249" max-vertical-offset="7106">
@@ -642,14 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/client/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-46.423077" vertical-offset="0" max-vertical-offset="1513">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/client/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="459">
@@ -658,10 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/server/package.json">
+    <entry file="file://$PROJECT_DIR$/dev/client/app/scripts/controllers/sport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="632">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -674,10 +678,211 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dev/client/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1564">
+          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dev/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.375" vertical-offset="408" max-vertical-offset="1292">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#2291#2453#0" expanded="false" />
+            <element signature="e#2579#3042#0" expanded="false" />
+            <element signature="e#3174#3428#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="323">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/nimbu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5405405" vertical-offset="383" max-vertical-offset="901">
+          <caret line="648" column="95" selection-start-line="648" selection-start-column="95" selection-end-line="648" selection-end-column="95" />
+          <folding>
+            <element signature="n#!!block;n#c#0" expanded="false" />
+            <element signature="e#143#264#0" expanded="false" />
+            <element signature="n#!!block;n#d#0" expanded="false" />
+            <element signature="e#317#476#0" expanded="false" />
+            <element signature="n#!!block;n#e#0" expanded="false" />
+            <element signature="e#594#693#0" expanded="false" />
+            <element signature="e#959#1068#0" expanded="false" />
+            <element signature="e#980#1036#0" expanded="false" />
+            <element signature="e#1088#1201#0" expanded="false" />
+            <element signature="e#2136#2485#0" expanded="false" />
+            <element signature="n#!!block;n#f#0" expanded="false" />
+            <element signature="e#2806#2837#0" expanded="false" />
+            <element signature="e#2956#5126#0" expanded="false" />
+            <element signature="e#5290#11480#0" expanded="false" />
+            <element signature="e#5430#5482#0" expanded="false" />
+            <element signature="e#5591#5644#0" expanded="false" />
+            <element signature="e#5748#5798#0" expanded="false" />
+            <element signature="e#5908#5952#0" expanded="false" />
+            <element signature="e#6056#6190#0" expanded="false" />
+            <element signature="e#6293#6507#0" expanded="false" />
+            <element signature="e#6612#6783#0" expanded="false" />
+            <element signature="e#6890#6931#0" expanded="false" />
+            <element signature="e#7042#7087#0" expanded="false" />
+            <element signature="e#7201#7249#0" expanded="false" />
+            <element signature="e#7363#7412#0" expanded="false" />
+            <element signature="e#7516#7559#0" expanded="false" />
+            <element signature="e#7675#7725#0" expanded="false" />
+            <element signature="e#7870#8153#0" expanded="false" />
+            <element signature="e#8033#8063#0" expanded="false" />
+            <element signature="e#8184#8232#0" expanded="false" />
+            <element signature="e#8342#8386#0" expanded="false" />
+            <element signature="e#8495#8538#0" expanded="false" />
+            <element signature="e#8652#8700#0" expanded="false" />
+            <element signature="e#8823#8879#0" expanded="false" />
+            <element signature="e#8994#9043#0" expanded="false" />
+            <element signature="e#9159#9209#0" expanded="false" />
+            <element signature="e#9322#9369#0" expanded="false" />
+            <element signature="e#9483#9531#0" expanded="false" />
+            <element signature="e#9642#9687#0" expanded="false" />
+            <element signature="e#9802#9851#0" expanded="false" />
+            <element signature="e#9966#10015#0" expanded="false" />
+            <element signature="e#10134#10182#0" expanded="false" />
+            <element signature="e#10298#10348#0" expanded="false" />
+            <element signature="e#10462#10510#0" expanded="false" />
+            <element signature="e#10623#10670#0" expanded="false" />
+            <element signature="e#10781#10826#0" expanded="false" />
+            <element signature="e#10938#10982#0" expanded="false" />
+            <element signature="e#11092#11136#0" expanded="false" />
+            <element signature="e#11258#11313#0" expanded="false" />
+            <element signature="e#11428#11477#0" expanded="false" />
+            <element signature="e#11521#26035#0" expanded="false" />
+            <element signature="e#12955#13321#0" expanded="false" />
+            <element signature="e#13370#13883#0" expanded="false" />
+            <element signature="e#14061#14166#0" expanded="false" />
+            <element signature="e#14186#14291#0" expanded="false" />
+            <element signature="e#14312#14417#0" expanded="false" />
+            <element signature="e#14497#14552#0" expanded="false" />
+            <element signature="e#14695#14736#0" expanded="false" />
+            <element signature="e#14790#14835#0" expanded="false" />
+            <element signature="e#14895#15139#0" expanded="false" />
+            <element signature="e#14979#15024#0" expanded="false" />
+            <element signature="e#15080#15132#0" expanded="false" />
+            <element signature="e#15239#16201#0" expanded="false" />
+            <element signature="e#16298#17340#0" expanded="false" />
+            <element signature="e#17416#17447#0" expanded="false" />
+            <element signature="e#17510#20527#0" expanded="false" />
+            <element signature="e#18385#18478#0" expanded="false" />
+            <element signature="e#18528#18621#0" expanded="false" />
+            <element signature="e#18670#18763#0" expanded="false" />
+            <element signature="e#18814#18907#0" expanded="false" />
+            <element signature="e#18998#19093#0" expanded="false" />
+            <element signature="e#19188#19283#0" expanded="false" />
+            <element signature="e#19373#19466#0" expanded="false" />
+            <element signature="e#19571#19664#0" expanded="false" />
+            <element signature="e#19753#19845#0" expanded="false" />
+            <element signature="e#19937#20029#0" expanded="false" />
+            <element signature="e#20120#20229#0" expanded="false" />
+            <element signature="e#20323#20416#0" expanded="false" />
+            <element signature="e#20689#26033#0" expanded="false" />
+            <element signature="e#20743#21994#0" expanded="false" />
+            <element signature="e#23331#24039#0" expanded="false" />
+            <element signature="e#26076#28116#0" expanded="false" />
+            <element signature="e#26254#28114#0" expanded="false" />
+            <element signature="e#26512#27168#0" expanded="false" />
+            <element signature="e#26917#27153#0" expanded="false" />
+            <element signature="e#27252#27392#0" expanded="false" />
+            <element signature="e#27479#27667#0" expanded="false" />
+            <element signature="e#27751#27790#0" expanded="false" />
+            <element signature="e#27941#27992#0" expanded="false" />
+            <element signature="e#28161#30025#0" expanded="false" />
+            <element signature="e#28575#29183#0" expanded="false" />
+            <element signature="e#28952#29172#0" expanded="false" />
+            <element signature="e#29251#29391#0" expanded="false" />
+            <element signature="e#29470#29646#0" expanded="false" />
+            <element signature="e#29722#29753#0" expanded="false" />
+            <element signature="e#29884#29919#0" expanded="false" />
+            <element signature="e#30067#32403#0" expanded="false" />
+            <element signature="e#30297#30356#0" expanded="false" />
+            <element signature="e#30766#30797#0" expanded="false" />
+            <element signature="e#30861#31547#0" expanded="false" />
+            <element signature="e#31791#32401#0" expanded="false" />
+            <element signature="e#32164#32390#0" expanded="false" />
+            <element signature="e#32444#34194#0" expanded="false" />
+            <element signature="e#32506#34192#0" expanded="false" />
+            <element signature="e#33217#33256#0" expanded="false" />
+            <element signature="e#33323#34084#0" expanded="false" />
+            <element signature="e#33722#34074#0" expanded="false" />
+            <element signature="e#34485#34671#0" expanded="false" />
+            <element signature="e#34718#38219#0" expanded="false" />
+            <element signature="e#35379#35418#0" expanded="false" />
+            <element signature="e#35485#35888#0" expanded="false" />
+            <element signature="e#36365#38212#0" expanded="false" />
+            <element signature="e#36435#38202#0" expanded="false" />
+            <element signature="e#37242#37526#0" expanded="false" />
+            <element signature="e#37551#37699#0" expanded="false" />
+            <element signature="e#37854#38187#0" expanded="false" />
+            <element signature="e#38271#39013#0" expanded="false" />
+            <element signature="e#38520#38544#0" expanded="false" />
+            <element signature="e#38621#38652#0" expanded="false" />
+            <element signature="e#38714#38917#0" expanded="false" />
+            <element signature="e#38870#38910#0" expanded="false" />
+            <element signature="e#39051#41595#0" expanded="false" />
+            <element signature="e#39547#39661#0" expanded="false" />
+            <element signature="e#39732#39860#0" expanded="false" />
+            <element signature="e#39937#39968#0" expanded="false" />
+            <element signature="e#40032#41499#0" expanded="false" />
+            <element signature="e#41631#45254#0" expanded="false" />
+            <element signature="e#41985#42060#0" expanded="false" />
+            <element signature="e#42002#42053#0" expanded="false" />
+            <element signature="e#42313#42789#0" expanded="false" />
+            <element signature="e#42415#42483#0" expanded="false" />
+            <element signature="e#42513#42582#0" expanded="false" />
+            <element signature="e#42626#42783#0" expanded="false" />
+            <element signature="e#42808#42859#0" expanded="false" />
+            <element signature="e#42944#43146#0" expanded="false" />
+            <element signature="e#42999#43139#0" expanded="false" />
+            <element signature="e#43230#43452#0" expanded="false" />
+            <element signature="e#43285#43445#0" expanded="false" />
+            <element signature="e#43520#43709#0" expanded="false" />
+            <element signature="e#43774#44388#0" expanded="false" />
+            <element signature="e#43849#43908#0" expanded="false" />
+            <element signature="e#44210#44381#0" expanded="false" />
+            <element signature="e#44269#44370#0" expanded="false" />
+            <element signature="e#44465#44496#0" expanded="false" />
+            <element signature="e#44559#44629#0" expanded="false" />
+            <element signature="e#45296#48409#0" expanded="false" />
+            <element signature="e#45668#45743#0" expanded="false" />
+            <element signature="e#45685#45736#0" expanded="false" />
+            <element signature="e#46002#46458#0" expanded="false" />
+            <element signature="e#46104#46172#0" expanded="false" />
+            <element signature="e#46202#46271#0" expanded="false" />
+            <element signature="e#46315#46452#0" expanded="false" />
+            <element signature="e#46477#46528#0" expanded="false" />
+            <element signature="e#46619#46832#0" expanded="false" />
+            <element signature="e#46674#46825#0" expanded="false" />
+            <element signature="e#47003#47236#0" expanded="false" />
+            <element signature="e#47058#47229#0" expanded="false" />
+            <element signature="e#47304#47504#0" expanded="false" />
+            <element signature="e#47569#48212#0" expanded="false" />
+            <element signature="e#47644#47703#0" expanded="false" />
+            <element signature="e#48023#48205#0" expanded="false" />
+            <element signature="e#48082#48194#0" expanded="false" />
+            <element signature="e#48289#48320#0" expanded="false" />
+            <element signature="e#48383#48409#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/client/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53578335" vertical-offset="981" max-vertical-offset="1513">
+          <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
           <folding />
         </state>
       </provider>

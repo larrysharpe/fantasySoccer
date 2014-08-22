@@ -8,6 +8,6 @@
  * Controller of the clientApp
  */
 angular.module('clientApp')
-  .controller('SportCtrl', ['$scope', function ($scope) {
-
+  .controller('SportCtrl', ['$scope', 'DataFactory', function ($scope, DataFactory) {
+    console.log(DataFactory.get())
   }]);

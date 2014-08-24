@@ -72,16 +72,27 @@ angular
     .controller('appMainCtrl',['$scope','fullData', function($scope,fullData){
         $scope.data = fullData;
         $scope.league = 0;
-        $scope.conference = null;
-        $scope.division = null;
-        $scope.team = null;
+        $scope.conference = 0;
+        $scope.division = 0;
+        $scope.team = 0;
         $scope.sport = null;
 
         $scope.selectSport = function (sport){
+            $scope.team = 0;
+            $scope.league = 0;
+            $scope.player = 0;
             $scope.sport = sport;
         };
 
         $scope.selectLeague = function (league){
+            $scope.team = 0;
+            $scope.player = 0;
             $scope.league = league;
         };
+
+        $scope.selectTeam = function (team){
+            $scope.player = 0;
+            $scope.team = team;
+        };
+
 }]);

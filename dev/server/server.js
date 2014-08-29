@@ -14,14 +14,17 @@ var Bear     = require('./models/bear');
 var app        = express(); 				// define our app using express
 
 mongoose.connect('mongodb://localhost:27017/'); // connect to our database
+mongoose.connection.on('error', function(e){ console.log('Mongoose could not connect') });
+
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(express.directory('../client/app'));
-app.use(express.static('../client/app'));
-app.use('/', serveIndex('../client/app/'));
+
+//app.use(express.directory('../client/app'));
+//app.use(express.static('../client/app'));
+//app.use('/', serveIndex('../client/app/', {'icons': true}))
 app.set('view engine', 'ejs');
 
 var port = process.env.PORT || 3030;
@@ -32,7 +35,8 @@ var router = express.Router(); 				// get an instance of the express Router
 
 // test route to make sure everything is working (accessed at GET http://localhost:8080/api)
 router.get('/', function(req, res) {
-    res.json({ message: 'hooray! welcome to our api!' });
+   // res.json({ message: 'hooray! welcome to our api!' });
+    res.render('../client/app/index');
 });
 
 
@@ -98,19 +102,19 @@ router.route('/api/bears/:bear_id')
             });
 
         })
-        })
+    })
 
     // delete the bear with this id (accessed at DELETE http://localhost:8080/api/bears/:bear_id)
     .delete(function(req, res) {
-            Bear.remove({
-                _id: req.params.bear_id
-            }, function(err, bear) {
-                if (err)
-                    res.send(err);
+        Bear.remove({
+            _id: req.params.bear_id
+        }, function(err, bear) {
+            if (err)
+                res.send(err);
 
-                res.json({ message: 'Successfully deleted' });
-            });
+            res.json({ message: 'Successfully deleted' });
         });
+    });
 
 
 

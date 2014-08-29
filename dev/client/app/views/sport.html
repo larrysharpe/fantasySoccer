@@ -1,18 +1,35 @@
 <ul class="nav nav-pills">
-    <li><a><b>{{data.sports[sport].name}}:</b></a></li>
-    <li ng-repeat="league in data.sports[sport].leagues"><a href="" ng-click="selectLeague($index)">{{league.name}}</a></li>
+    <li><a><b>{{data[sport].name}}:</b></a></li>
+    <li ng-repeat="league in data[sport].leagues"><a href="" ng-click="selectLeague($index)">{{league.name}}</a></li>
 </ul>
-        <div class="col-md-4">
-            <h3>Teams</h3>
+<ul class="nav nav-pills">
+    <li><a><b>Fantasy:</b></a></li>
+    <li><a href="#/fantasy/{{data[sport].name | lowercase}}">Home</a></li>
+</ul>
+
+<div class="col-md-4">
+            <h3>{{data[sport].leagues[league].name}} Teams</h3>
             <ul class="list-unstyled">
-                <li ng-repeat="team in data.sports[sport].leagues[league].teams"><a href="" ng-click="selectTeam($index)">{{team.name}}</a></li>
+                <li ng-repeat="team in data[sport].leagues[league].teams"><a href="" ng-click="selectTeam($index)">{{team.name}}</a></li>
             </ul>
         </div>
-        <div class="col-md-4">
-            <h3>Squad</h3>
-            <ul class="list-unstyled">
-                <li ng-repeat="player in data.sports[sport].leagues[league].teams[team].squad">
-                    <a href="" ng-click="selectPlayer($index)">{{player.fname}} {{player.lname}}</a>
-                </li>
-            </ul>
+        <div class="col-md-6">
+            <h3>{{data[sport].leagues[league].teams[team].name}} Squad</h3>
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Position</th>
+                </tr>
+                </thead>
+                <tr ng-repeat="player in data[sport].leagues[league].teams[team].squad">
+                    <td>{{player.number}}</td>
+                    <td><a href="" ng-click="selectPlayer($index)">{{player.fname}} {{player.lname}}</a></td>
+                    <td>{{player.position}}</td>
+                    <td></td>
+                </tr>
+            </table>
+
         </div>

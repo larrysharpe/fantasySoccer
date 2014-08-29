@@ -1,0 +1,10 @@
+<ul class="nav nav-pills">
+    <li><a><b>{{data[sport].name}}:</b></a></li>
+    <li ng-repeat="league in data[sport].leagues"><a href="" ng-click="selectLeague($index)">{{league.name}}</a></li>
+</ul>
+<ul class="nav nav-pills">
+    <li><a><b>Fantasy:</b></a></li>
+    <li><a href="#/fantasy/{{data[sport].name | lowercase}}">Home</a></li>
+</ul>
+
+<h1>Create a League</h1>

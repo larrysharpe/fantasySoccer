@@ -9,5 +9,5 @@
  */
 angular.module('clientApp')
   .controller('SportCtrl', ['$scope', 'DataFactory', function ($scope, DataFactory) {
-    //console.log(DataFactory.get())
+
   }]);

@@ -31,11 +31,21 @@ angular
             templateUrl: 'views/contact.html',
             controller: 'ContactCtrl'
         })
-        .when('/Soccer', {
+        .when('/fantasy', {
+            templateUrl: 'views/fantasy/index.html'
+        })
+        .when('/fantasy/soccer', {
+            templateUrl: 'views/fantasy/sport.html'
+        })
+        .when('/fantasy/football', {
+            templateUrl: 'views/fantasy/sport.html'
+        })
+
+        .when('/soccer', {
             templateUrl: 'views/sport.html',
             controller: 'SportCtrl'
         })
-        .when('/Football', {
+        .when('/football', {
             templateUrl: 'views/sport.html',
             controller: 'SportCtrl'
         })
@@ -67,8 +77,12 @@ angular
 
 
     .service('fullData',[function(){
+
+        console.log(sportsData)
+
         return sportsData;
     }])
+
     .controller('appMainCtrl',['$scope','fullData', function($scope,fullData){
         $scope.data = fullData;
         $scope.league = 0;
